@@ -1,0 +1,39 @@
+{
+    "name": "avastechnology/laravel-console",
+    "version": "9.0.0",
+    "description": "This package is simply a series of traits to use with laravel console commands. An abstract command with all of the traits is also included.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Author Name",
+            "email": "author@email.com",
+            "homepage": "http://author.com"
+        }
+    ],
+    "homepage": "https://github.com/avastechnology/laravel-console",
+    "keywords": ["Laravel", "LaravelConsole"],
+    "require": {
+        "illuminate/support": "~9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Avastechnology\\LaravelConsole\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Avastechnology\\LaravelConsole\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+                "avastechnology/laravel-console"
+            ]
+        }
+    }
+}
