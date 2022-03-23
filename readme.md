@@ -2,8 +2,6 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
-[![Build Status][ico-travis]][link-travis]
-[![StyleCI][ico-styleci]][link-styleci]
 
 Laravel Console is a helper library for console command development. It contains a series of traits that can be included to quickly add functionality when creating a new command.
 
@@ -47,7 +45,5 @@ MIT. Please see the [license file](license.md) for more information.
 
 [link-packagist]: https://packagist.org/packages/avastechnology/laravel-console
 [link-downloads]: https://packagist.org/packages/avastechnology/laravel-console
-[link-travis]: https://travis-ci.org/avastechnology/laravel-console
-[link-styleci]: https://styleci.io/repos/12345678
 [link-author]: https://github.com/avastechnology
 [link-contributors]: ../../contributors
