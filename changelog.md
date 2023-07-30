@@ -2,9 +2,9 @@
 
 All notable changes to `LaravelConsole` will be documented in this file.
 
-## Version 9.0
+## Version 10.0
 
-For use with version 9.X of Laravel.
+For use with version 10.X of Laravel.
 
 ### Added
 - Everything
